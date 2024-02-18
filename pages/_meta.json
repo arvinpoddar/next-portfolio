@@ -1,0 +1,33 @@
+{
+    "index": {
+        "type": "page",
+        "display": "hidden",
+        "theme": {
+            "layout": "full"
+        }
+    },
+    "resume": {
+        "type": "page",
+        "title": "Résumé",
+        "theme": {
+            "typesetting": "article",
+            "layout": "full"
+        }
+    },
+    "blog": {
+        "type": "page",
+        "title": "Blog",
+        "theme": {
+            "typesetting": "article",
+            "layout": "default"
+        }
+    },
+    "404": {
+        "type": "page",
+        "title": "404",
+        "theme": {
+            "timestamp": false,
+            "layout": "full"
+        }
+    }
+}

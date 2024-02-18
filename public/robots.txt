@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /works/*
+Disallow: /resume/*
+Disallow: /hero/*
+Disallow: /logo/*

@@ -1,0 +1,38 @@
+---
+title: "Home"
+---
+
+import { Hero } from "@/components/home/Hero";
+import { ContactForm } from "@/components/home/ContactForm";
+import { Works } from "@/components/home/Works";
+
+{<main className="max-w-[1250px] mx-auto">
+
+<Hero />
+
+<hr className="my-16 border border-neutral-700" />
+
+<h1 id="works" className="mb-4 mt-10 text-4xl font-bold tracking-tight">
+  Works
+</h1>
+
+<p className="mb-8 text-xl">My personal favorite works that I've built:</p>
+
+<Works />
+
+<hr className="my-16 border border-neutral-700" />
+
+<h1
+  id="contact"
+  className="mb-4 mt-10 text-center text-4xl font-bold tracking-tight"
+>
+  Contact
+</h1>
+
+<p className="mb-8 text-center text-xl">
+  Have a question? Feel free to reach out:
+</p>
+
+<ContactForm />
+
+</main> }
