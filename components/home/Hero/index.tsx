@@ -7,21 +7,26 @@ export function Hero() {
   return (
     <div className="section hero-section mt-12">
       <div className="left">
-        <div className="pre-header">Hi, my name is</div>
-        <div className="main-header">Arvin Poddar.</div>
+        <p className="pre-header">Hi, my name is</p>
+        <p className="main-header">Arvin Poddar.</p>
         <div className="post-header">
-          <div>I build solutions for the web.</div>
-          <div>
-            Software engineer @{" "}
-            <Link
-              className="text-pink-500 hover:underline"
-              href="https://www.makeswift.com/"
-            >
-              Makeswift
-            </Link>{" "}
-            ⚡️
-          </div>
-          <div>Georgia Tech Computer Science '22 (BS) & '23 (MS) 🐝</div>
+          <p>I build solutions for the web.</p>
+          <p>
+            <span className="inline-block">Software engineer @&nbsp;</span>
+            <span className="inline-block">
+              <Link
+                className="text-pink-500 hover:underline"
+                href="https://www.makeswift.com/"
+              >
+                Makeswift
+              </Link>{" "}
+              <span className="hover:animate-pulse">⚡️</span>
+            </span>
+          </p>
+          <p>
+            <span className="inline-block">Georgia Tech Computer Science</span>{" "}
+            <span className="inline-block">'22 (BS) & '23 (MS) 🐝</span>
+          </p>
         </div>
         <div className="mt-4 flex items-center gap-3 hero-buttons">
           <Link href="/#works">
