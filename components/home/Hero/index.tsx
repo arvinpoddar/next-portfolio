@@ -17,6 +17,7 @@ export function Hero() {
               <Link
                 className="text-pink-500 hover:underline"
                 href="https://www.makeswift.com/"
+                target="_blank"
               >
                 Makeswift
               </Link>{" "}
@@ -24,7 +25,16 @@ export function Hero() {
             </span>
           </p>
           <p>
-            <span className="inline-block">Georgia Tech Computer Science</span>{" "}
+            <span className="inline-block">
+              <Link
+                className="text-amber-400 hover:underline"
+                href="https://gatech.edu/"
+                target="_blank"
+              >
+                Georgia Tech
+              </Link>{" "}
+              Computer Science
+            </span>{" "}
             <span className="inline-block">'22 (BS) & '23 (MS) 🐝</span>
           </p>
         </div>

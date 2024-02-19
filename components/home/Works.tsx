@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Works() {
   return (
-    <div className="grid gap-4 grid-cols-3 min-[578px]:max-lg:grid-cols-2 min-[0px]:max-[578px]:grid-cols-1">
+    <div className="grid gap-5 grid-cols-3 min-[578px]:max-lg:grid-cols-2 min-[0px]:max-[578px]:grid-cols-1">
       <ProjectDisplay.Card
         site="https://infinitegiving.com"
         title="Infinite Giving"
@@ -27,9 +27,7 @@ export function Works() {
               Infinite Giving is the first investment platform created for
               nonprofits, modernizing investing and asset giving.
             </p>
-
             <br />
-
             <p>
               My role at Infinite Giving is to lead construction of the platform
               frontend. This includes constructing the user interface by closely
@@ -39,11 +37,9 @@ export function Works() {
               screens for a platform that now manages over $16 million in
               assets.
             </p>
-
             <br />
-
             <p>
-              Ive had the pleasure of working at Infinite Giving since the
+              I've had the pleasure of working at Infinite Giving since the
               summer of 2021, where Ive worked alonside Karen Houghton, Seth
               Radman, and Connor Ford. Infinite Giving is based in Atlanta.
             </p>
@@ -268,9 +264,7 @@ export function Works() {
               made it difficult to maintain a consistent look and feel between
               homework assignments.
             </p>
-
             <br />
-
             <p>
               To solve these problems, I created Templit, a collaborative
               Markdown editor that renders document previews in realtime and
@@ -282,9 +276,7 @@ export function Works() {
               documents makes it easy for students to scan through homework
               assignments and find the information they need.
             </p>
-
             <br />
-
             <p>
               Templit is built with Quasar, using Firepad and Firebase as
               realtime document storage. This means that the app itself is
@@ -292,7 +284,7 @@ export function Works() {
               of the most important considerations during the construction of
               this project).
             </p>
-
+            <br />
             <p>
               After its release, Templit remains as the defacto document editor
               for CS 1301, used for homeworks, labs, and recitation worksheets.

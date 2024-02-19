@@ -76,7 +76,7 @@ export function DisplayCard({
           </DialogTitle>
         </DialogHeader>
         <hr className="border-t border-neutral-700" />
-        <div className="w-full max-h-[80vh] overflow-auto">{children}</div>
+        <div className="w-full max-h-[50vh] overflow-auto">{children}</div>
       </DialogContent>
     </Dialog>
   );
