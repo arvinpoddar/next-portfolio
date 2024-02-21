@@ -2,13 +2,21 @@ import { Button } from "@/components/ui/button";
 import { Send } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import cn from "clsx";
 
 export function Hero() {
   return (
     <div className="section hero-section mt-12">
       <div className="left">
         <p className="pre-header">Hi, my name is</p>
-        <p className="main-header">Arvin Poddar.</p>
+        <p
+          className={cn(
+            "main-header transition-colors ease-in-out duration-1000",
+            "bg-gradient-to-r from-indigo-500 via-blue-500 to-indigo-400 inline-block text-transparent bg-clip-text"
+          )}
+        >
+          Arvin Poddar.
+        </p>
         <div className="post-header">
           <p>I build solutions for the web.</p>
           <p>
@@ -33,7 +41,7 @@ export function Hero() {
               >
                 Georgia Tech
               </Link>{" "}
-              Computer Science
+              Comp Sci
             </span>{" "}
             <span className="inline-block">'22 (BS) & '23 (MS) 🐝</span>
           </p>
@@ -61,8 +69,8 @@ export function Hero() {
       <div className="right">
         <Image
           src="/hero/hero-graphic-desktop.png"
-          width={500}
-          height={500}
+          width={700}
+          height={700}
           alt=""
           className="floating desktop-graphic"
         />
