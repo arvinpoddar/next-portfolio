@@ -50,11 +50,11 @@ const config: DocsThemeConfig = {
         <meta name="description" content="Software engineer" />
         <meta name="og:description" content="Software engineer." />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://arvinpoddar.com/og.jpeg" />
+        <meta name="twitter:image" content="https://arvinpoddar.com/og.jpg" />
         <meta name="twitter:site:domain" content="arvinpoddar.com" />
         <meta name="twitter:url" content="https://arvinpoddar.com" />
         <meta name="og:title" content={title} />
-        <meta name="og:image" content="https://arvinpoddar.com/og.jpeg" />
+        <meta name="og:image" content="https://arvinpoddar.com/og.jpg" />
         <meta name="apple-mobile-web-app-title" content="Arvin Poddar" />
         <link rel="icon" href="/favicon.ico" type="image/png" />
       </>
