@@ -31,7 +31,7 @@ export function DisplayCard({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <button className="group transition-transform duration-200 translate-y-[5px]">
+        <button className="group flex flex-col transition-transform duration-200 translate-y-[5px]">
           <Image
             className="rounded-t-lg aspect-[12/7] object-cover object-top border border-b-0 border-neutral-700"
             src={poster}
@@ -42,7 +42,7 @@ export function DisplayCard({
           />
           <div
             className={cn(
-              "nextra-card nx-group nx-flex nx-flex-col nx-justify-start nx-overflow-hidden rounded-b-lg border border-gray-200",
+              "flex-1 nextra-card nx-group nx-flex nx-flex-col nx-justify-start nx-overflow-hidden rounded-b-lg border border-gray-200",
               "nx-text-current nx-no-underline dark:nx-shadow-none",
               "hover:nx-shadow-gray-100 dark:hover:nx-shadow-none nx-shadow-gray-100",
               "active:nx-shadow-sm active:nx-shadow-gray-200",

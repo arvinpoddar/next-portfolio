@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Works() {
   return (
-    <div className="grid gap-5 grid-cols-3 min-[578px]:max-lg:grid-cols-2 min-[0px]:max-[578px]:grid-cols-1">
+    <div className="grid gap-5 auto-rows-max grid-cols-3 min-[578px]:max-lg:grid-cols-2 min-[0px]:max-[578px]:grid-cols-1">
       <ProjectDisplay.Card
         site="https://infinitegiving.com"
         title="Infinite Giving"
